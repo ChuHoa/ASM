@@ -1,0 +1,25 @@
+.body {
+    margin: 0;
+}
+/* header */
+.header{
+    width: 100%;
+}
+.logo{
+
+}
+.search-bar{
+
+}
+/* search-input */
+.search-input{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navbar{
+    border: 1px solid black;
+    height: 200px;
+}
+/* container */
+
+/* footer */
