@@ -1,25 +1,142 @@
-.body {
+/* https://digitalsynopsis.com/design/beautiful-color-palettes-combinations-schemes/ */
+body {
     margin: 0;
+    font-family: 'Baloo 2', cursive;
+    background-color: #fce4f6   ;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
 }
 /* header */
 .header{
     width: 100%;
+    padding-top: 10px;
+    background-color: #ff3377;
+    border-bottom: 1px solid rgba(0,0,0,.1);
 }
+.row{
+    margin-left: 0px;
+}
+
+/* logo */
+.title{
+    font-family: 'Baloo 2', cursive;
+    font-size: 40px;
+    width: 100%;
+    margin: 0;
+}
+
+.logo-div{
+    align-items: center;
+}
+
 .logo{
-
-}
-.search-bar{
-
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
 }
 /* search-input */
+.wrap {
+    width: 30%;
+    transition: all 1.5s;
+}
+.search-bar{
+    width: 100%;
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
 .search-input{
-    border: 1px solid black;
-    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0,123,255,.25);
+    border-right: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    transition: all 1.5s;
 }
-.navbar{
-    border: 1px solid black;
-    height: 200px;
+.search-input:hover{
+    box-shadow: 0 0 3px 3px rgba(0,123,255,.25);
 }
+.search-button{
+    cursor: pointer;
+    color:white;
+}
+/* login */
+.login{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.login-button-div{
+    height: 100%;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* navbar */
+
 /* container */
 
+/* carousel */
+
+.li-slide{
+    width: 20px;
+    height: 10px;
+}
+.slide-size {
+    width: 100%;
+    height:400px;
+}
+.slide-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    width: 100%;
+    width: 70%;
+}
+.carousel-caption{
+    text-align: left;
+    color:#ff5588 ;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    position: relative;
+    margin: 0;
+    margin-right: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel-indicators .active{
+    background: #ff3377 ;
+    box-shadow: 0 0 0 0px #fff;
+    border: 1px solid #ff3377 ;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active .point {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ff3377 ;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.line{
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 30px;
+    height: 1px;
+    border-top: 1px solid rgba(255, 255, 255, 0.44);
+}
 /* footer */
