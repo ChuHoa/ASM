@@ -13,7 +13,7 @@ img {
 .header{
     width: 100%;
     padding-top: 10px;
-    background-color: #ff3377;
+    background-color: #fcc6ee;
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .row{
@@ -50,21 +50,54 @@ img {
     align-items: center;
     justify-content: center;
 }
+/* SEARCH INPUT */
+.form-control:focus{
+    border: 1px solid #ff5588;
+    box-shadow: 0 0 3px 3px #ff3377 ;
+}
 .search-input{
     height: 100%;
     width: 100%;
-    border: 1px solid rgba(0,123,255,.25);
+    border: 1px solid #ff5588;
     border-right: none;
     outline: none;
     border-radius: 5px 0 0 5px;
     transition: all 1.5s;
 }
 .search-input:hover{
-    box-shadow: 0 0 3px 3px rgba(0,123,255,.25);
+    box-shadow: 0 0 3px 3px #ff3377 ;
 }
+
+/* BUTTON SEARCH */
 .search-button{
     cursor: pointer;
-    color:white;
+    background-color: #ff5588;
+    border: 1px solid #ff5588;
+}
+.search-button:hover{
+    background-color: #ff86ab;
+    border: 1px solid #ff5588;
+    box-shadow: 0 0 3px 3px #ff3377 ;
+}
+.search-button:active{
+    background-color: #ff86ab;
+    border: 1px solid #ff5588;
+    box-shadow: 0 0 3px 3px #ff3377 ;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color: #ff86ab;
+    border: 1px solid #ff5588;
+    box-shadow: 0 0 3px 3px #ff3377 ;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle{
+    background-color: #ff86ab;
+    border: 1px solid #ff5588;
+    box-shadow: 0 0 3px 3px #ff3377 ;
+}
+.search-button:focus{
+    background-color: #ff86ab;
+    border: 1px solid #ff5588;
+    box-shadow: 0 0 3px 3px #ff3377 ;
 }
 /* login */
 .login{
@@ -73,9 +106,28 @@ img {
     align-items:center;
 }
 .login-button-div{
-    height: 100%;
     align-items: center;
     margin-right: 20px;
+}
+.login-button{
+    color: #ff5588;
+    border-color: #ff5588;
+    background-color: #ff558800;
+}
+.login-button:hover{
+    background-color: #ff5588;
+    border-color: #ff5588;
+}
+.login-button:active{
+    background-color: #ff5588;
+    border-color: #ff5588;
+    color: #ff5588;
+}
+.login-button:focus{
+    background-color: #ff558800;
+    border-color: #ff5588;
+    box-shadow: 0 0 0 0.2rem #ff5588;
+    color: #ff5588;
 }
 
 /* navbar */
@@ -90,7 +142,7 @@ img {
 }
 .slide-size {
     width: 100%;
-    height:400px;
+    height:500px;
 }
 .slide-div{
     display: flex;
