@@ -295,7 +295,7 @@ h1 {
 	background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
 		center/cover;
 }
-
+ 
 .video-container video {
 	min-width: 100%;
 	min-height: 100%;
